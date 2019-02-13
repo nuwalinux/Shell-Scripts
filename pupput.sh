@@ -1,4 +1,7 @@
 #!/bin/bash
+############################################################################################################
+# * Script by Nuwan kaushalya                                                                              #
+############################################################################################################
 sudo nmap -F your-ip-range | grep 'Nmap scan report for' | awk '{print $5}' &> /root/Desktop/scanedip3.txt
 IP=$(cat /root/Desktop/scanedip3.txt)
 for IP in $IP;
