@@ -1,7 +1,5 @@
 #!/bin/bash
 # This script list the top 5 CPU, memory, input/output (I/O), and network consuming processes
-# This script should work on both CentOS and macOS
-# Author: Prashant Lakhera(laprashant@gmail.com)
 
 # Check if top command is present
 if command -v top >/dev/null 2>&1; then
