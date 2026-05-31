@@ -8,3 +8,6 @@ for IP in $IP;
 do
 sshpass -f '/root/.smbcredentialsssh' ssh -o ConnectTimeout=05 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@$IP 'your command'
 done
+
+#### test to commit via terminal
+#### my new script changes 
