@@ -1,10 +1,13 @@
 #!/bin/bash
 #############################################################################################################
 # * Script by Nuwan kaushalya                                                                               #
-# * ad single ore bulk users to open ldap server       													                                        #
+# * ad single ore bulk users to open ldap server
+# nuwan kaushalya       													                                        #
 #############################################################################################################
  
 _main () {
+
+
 
 trap "rm -f $tmpuop $passtp" 0 1 2 5 15
  tmpuop='/tmp/tmpuop'
@@ -60,3 +63,5 @@ sleep 02
 done && /Sharepoint/bulkuseradd.sh
 }
 _main
+
+####### test
